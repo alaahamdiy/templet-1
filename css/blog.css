@@ -1,0 +1,473 @@
+/* commin styl */
+
+
+*{
+    margin: 0% ;
+    padding: 0% ;
+    box-sizing: border-box; 
+}
+
+.pd-y{
+    padding: 120px 0 
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+
+}
+ 
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+}
+
+.contaner{ width: 80%;
+    margin: auto;}
+
+/* header seaction */
+    .header{
+        background-color:white;
+width: 100%;
+position: fixed;
+margin-top: -70px;
+
+    }
+    .header-conten{
+        overflow: hidden;
+    }
+.header .header-img{
+    width: 40%; 
+    float: left;
+}
+
+.header .header-img img{
+    width: 20%;
+    margin-top: 10px;
+}
+.header .navbar{
+    width: 60%; 
+float: right;
+text-align: right;
+}
+.navbar li a{
+    color:black;
+    display: block;
+padding: 30px 15px;
+text-decoration: none;
+}
+.dropdown{
+    position: relative;
+}
+ .dropdown-menu{
+    position: absolute;
+    background-color: cornflowerblue;
+text-align: center;
+width: 90px;
+padding: 2px;
+top: 70px;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.5s , visibility 0.5s ;
+ }
+
+ .dropdown:hover .dropdown-menu{
+
+    opacity: 1;
+visibility: visible; } 
+
+ .dropdown-menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+ }
+    .dec-one{
+        width: 70%;
+        float: left;
+    }
+    
+    
+.dec-one .list{
+    padding: 20px;
+    list-style: none;
+    margin: 0 20px 0 -15px;
+
+}
+.dec-one .list li{
+    padding:10px 5px;
+    display: inline-block;
+
+
+}
+.dec-one .list i{ color: cornflowerblue;
+
+}
+.dec-one .dec-titel{
+
+    text-transform: capitalize;
+    padding: 10px 0;
+
+
+}
+.dec-one .dec-p{
+    color:#999;
+    text-transform: capitalize;
+font-size: 15px;
+line-height: 25px; 
+padding: 10px 250px 40px 0px ;
+}
+
+.over-flow{
+    overflow: hidden;
+}
+.dec-two{
+    width: 30%;
+    float: left;
+    
+  
+}
+.search input{
+    background-color:whitesmoke;
+    border: none;
+    width: 360px;
+    height: 30px;
+    position: relative;
+}
+.search i{
+    color: cornflowerblue;
+    position: absolute;
+    transform: translate(-200%,50%);
+
+}
+.search form{
+    padding-bottom: 20px;
+}
+
+.line{
+
+        display: block;
+        width: 30px;
+    height: 3px;
+    background-color: cornflowerblue;
+    margin-top: 13px;
+   
+    
+ }
+ .dec-titel .titel{
+    
+    text-transform:uppercase;
+    font-size: 20px;
+
+}
+.dec-two .dec-titel{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.dec-two .dec-two-list li{
+    list-style: none;
+    padding: 5px 0;
+    float: left;
+    text-transform: capitalize;
+   
+}
+.dec-two-list{
+    margin-bottom: 30px;
+}
+.dec-two-list .dec-li:hover{
+    color: cornflowerblue;
+transition: 1s;
+}
+
+.dec-two-list .dec-span{
+    float: right;
+    color: cornflowerblue;
+    padding-top: 5px;
+}
+hr{
+    margin-top: 9px;
+    width: 370px;
+    color: whitesmoke;
+    
+}
+.posts .post-one{
+    overflow: hidden;
+}
+.posts img{
+    float: left;
+    width: 50%;
+    
+}
+.posts .h-one{
+   float: right;
+   width: 50%;
+padding-left: 9px;}
+
+
+.h-one h4{
+    padding-bottom: 15px;
+}
+.h-one span{
+    color: cornflowerblue;
+    font-size: small;
+}
+.pd-o{
+    padding: 15px 0;
+}
+.dec-two .small{
+    background-color:whitesmoke;
+    width: 80px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.dec-two .but{
+    background-color:whitesmoke;
+    width: 120px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+margin: 5px 0;}
+
+
+.tages h3{
+    float: left;
+}
+.dec-one-but .but{
+    background-color:whitesmoke;
+    width: 100px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.dec-one-but i{
+    color: cornflowerblue;
+padding-right: 3px;}
+.clear{
+    clear: both;
+}
+
+
+.dec-one .form{
+    border: 2px solid whitesmoke;
+    margin: 50px 40px 50px 0;
+    padding: 20px  ;
+    overflow: hidden;
+
+}
+.dec-one .form img{
+    float: left;
+    width: 20%;
+}
+.dec-one .form-dec{
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.form-titel{
+    overflow: hidden;
+}
+.form-i{
+    float: right;
+}
+
+.form-titel h3{
+
+    float: left;
+    text-transform: uppercase;
+}
+
+.form-i a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    background-color: cornflowerblue;
+    color: white;
+  }
+.form-i i{
+padding:3px 5px;
+}
+
+.form-dec .form-p{
+    color: #999;
+    text-transform: capitalize;
+    border-top: 2px solid whitesmoke;
+    margin: 20px 0;
+    padding-top: 15px ;
+    font-size: 15px;
+}
+.dec-titel-coment{
+    font-size: 15px;
+    padding-bottom: 20px;
+
+}
+
+
+.coment-form{
+    border: 2px solid whitesmoke;
+    margin: 0px 40px 0px 0px;
+    padding: 20px  ;
+    overflow: hidden;
+
+}
+.coment-form .coment-img img{
+    float: left;
+    width: 10%;
+}
+.coment-form .coment-dec{
+    width: 90%;
+    float: right;
+
+}
+.coment-form .form-head{
+    overflow: hidden;
+
+}
+.form-head h3{
+    float: left;
+    width: 20%;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+.form-head .coment-time{
+    float: left; 
+    width: 20%;
+    color:#999;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+.form-head .coment-reply a{
+color: cornflowerblue;
+padding-left: 75px;
+float: right;
+width: 20%;
+text-decoration: none;
+
+}
+.coment-form .coment-p{
+    color: #999;
+    font-size: 15px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    padding: 15px ;
+}
+.last{
+    margin-bottom: 40px;
+}
+
+.act:hover{
+    background-color: whitesmoke;
+    border: cornflowerblue;
+    transition: 1s;
+}
+.inbut input{
+    border: none;
+background-color:whitesmoke;
+text-transform: capitalize;
+width: 300px;
+height: 35px;
+color: #999;
+padding: 0 5px;
+}
+.inbut .add{
+    width: 600px;
+height: 100px; 
+margin: 15px 0;
+padding: 8px 15px 80px 5px  ;
+}
+.inbut .sub{
+    background-color: cornflowerblue;
+border-radius: 5%;
+width: 90px;
+height: 40px;
+border: none;
+color: white;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+.footer{background-color: rgba(0,0,0,.7); 
+    text-align: center;
+    padding: 60px 0;
+    
+    }
+    
+    .footer ul{ 
+        list-style: none;
+        margin: 20px 0;
+    }
+    .footer ul li {
+    display: inline-block; 
+    
+    }
+    
+    .footer ul li a{
+        display: block;
+        color: white;
+        width: 50px;
+        height: 50px;
+        background-color: cornflowerblue;
+        margin: 5px;
+        border-radius: 50%;
+    
+    }
+    .footer-link li a i{
+        line-height: 50px;
+    }
+    .footer p{
+        color: #999;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .crumbs{
+        overflow: hidden;
+        width: 100%;
+height: 240px;
+background-color: #eee;
+margin-top: 70px;
+border: #999;
+
+
+    }
+    .crumbs h3{
+        float: left;
+        text-transform: capitalize;
+        font-size: 50px;
+        padding-top: 90px;
+    }
+    .crumbs .crumb ul{
+        float: right;
+            padding: 130px 16px;
+            list-style: none;
+
+
+    }
+    .crumb .post{
+        color: #999;
+    }
+    .breadcrumb li {
+        display: inline;
+        font-size: 18px;
+      }
+      ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #999;
+        content: "/\00a0";
+      }
+      ul.breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+      }
+      ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+      }
